@@ -1,0 +1,35 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  background-color: grey;
+  padding-top: 56px;
+  margin: 0;
+  /* padding: 0; */
+}
+
+/* .background {
+  color: blue;
+  position: absolute;
+  display: block;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+} */
+
+#brand{
+  height: 60%;
+  width: 55%;
+}
+
+.d-block{
+  padding-top: 2%;
+}
+
+
+.lefting{
+  margin-left: 15%;
+}
