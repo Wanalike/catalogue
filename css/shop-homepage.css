@@ -4,13 +4,34 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 body {
-  background-color: grey;
-  padding-top: 56px;
+   /* background-color: currentColor; */
   margin: 0;
-  /* padding: 0; */
+  background: linear-gradient(35deg, cadetblue, darkcyan, darkslategray, darkblue, teal, currentColor  );
+  /* background: linear-gradient(35deg, yellow, red, blue, green, currentColor ); */
+  background-size: 600% 600%;
+  -webkit-animation: animBg 30s ease infinite;
+  -moz-animation: animBg 30s ease infinite;
+  animation: animBg 30s ease infinite;
+}
+@-webkit-keyframes animBg {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+@-moz-keyframes animBg {
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}%}
+}
+@keyframes animBg {
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}%}
 }
 
-/* .background {
+}
+
+.background {
   color: blue;
   position: absolute;
   display: block;
@@ -18,7 +39,7 @@ body {
   top: 0;
   left: 0;
   z-index: 0;
-} */
+}
 
 #brand{
   height: 60%;
@@ -32,4 +53,29 @@ body {
 
 .lefting{
   margin-left: 15%;
+}
+
+.gradiente{
+  /*background: linear-gradient(35deg, cadetblue, darkcyan, darkslategray, darkblue, teal, currentColor  );*/
+  background-color: linear-gradient(35deg, yellow, red, blue, green, currentColor );
+  /* background-size: 600% 600%; */
+  -webkit-animation: animBg 30s ease infinite;
+  -moz-animation: animBg 30s ease infinite;
+  animation: animBg 30s ease infinite;
+}
+@-webkit-keyframes animBg {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+@-moz-keyframes animBg {
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}%}
+}
+@keyframes animBg {
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}%}
+}
 }
