@@ -28,6 +28,6 @@
 - stockage de données jusqu'a 100go
 
 
-## cloud : Bientot disponible
+## cloud +: Bientot disponible
 - access cloud 5 utilisateurs + backup mensuel
 - stockage de données jusqu'a 200go
